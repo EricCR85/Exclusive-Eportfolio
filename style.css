@@ -16,7 +16,11 @@ li {
 }
 .container {
   padding: 50px 0;
+  margin: 0;
 }
+
+
+
 .row {
   width: 100%;
   max-width: 1100px;
