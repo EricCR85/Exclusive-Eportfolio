@@ -388,10 +388,10 @@ MODAL
 
 .modal__overlay--success {
   background-color: #4bb543;
-  font-style: 40px;
   font-weight: 700;
   text-align: center;
-  padding: 20px;
+  padding: 28px;
+  font-size: 40px;
 }
 
 .fa-spinner {
@@ -407,7 +407,7 @@ MODAL
   }
 }
 
-.modal_-exit{
+.modal__exit{
   position: absolute;
   top: 30px;
   right: 40px;
