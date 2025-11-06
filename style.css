@@ -148,6 +148,7 @@ nav,
   transition: all 400ms;
 }
 
+
 .dark-theme .title,
 .dark-theme .section__title,
 .dark-theme .section__sub-title,
@@ -158,6 +159,7 @@ nav,
  {
   color: white;
 }
+
 
 .dark-theme section {
   background-color: #242424;
@@ -232,7 +234,7 @@ LANDING PAGE
   border: none;
   background-color: #242424;
   color: white;
-  position: absolute;
+  position: fixed;
   bottom: 32px;
   right: 40px;
 }
