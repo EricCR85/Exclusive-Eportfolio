@@ -14,7 +14,7 @@ function contact(event) {
       "service_tplzvpl",
       "template_g4ndma9",
       event.target,
-      "udMjcpxrij46dA8FZ"
+      "u12bt9OoI1zBlbshw"
     )
     .then(() => {
       loading.classList.remove("modal__overlay--visible");
