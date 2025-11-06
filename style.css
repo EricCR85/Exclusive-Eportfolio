@@ -50,6 +50,12 @@ textarea:focus {
   border-color: #f06449;
 }
 
+.modal--open {
+  z-index: 60;
+  box-shadow: 0 20px 80px 0 rgb(0, 0, 0, 0.5);
+  visibility: visible;
+}
+
 .container {
   padding: 50px 0;
   width: 100%;
@@ -268,9 +274,12 @@ MODAL
   width: 90%;
   max-width: 1100px;
   height: 700px;
-  box-shadow: 0 20px 80px 0 rgb(0, 0, 0, 0.5);
+  border-radius: 20px;
+
+  /* box-shadow: 0 20px 80px 0 rgb(0, 0, 0, 0.5); */
   overflow: hidden;
   display: flex;
+  visibility: hidden;
 }
 
 .modal__half {
@@ -383,7 +392,6 @@ MODAL
 
 .modal__overlay--loading {
   background-color: #242424;
-  font-size: 80px;
 }
 .modal__overlay--success {
   background-color: #4bb543;
@@ -392,6 +400,13 @@ MODAL
   text-align: center;
   padding: 28px;
   font-size: 40px;
+}
+.fa-spinner {
+  font-size: 80px;
+}
+
+.modal__overlay--visible {
+  z-index: 1;
 }
 
 .fa-spinner {
@@ -439,6 +454,7 @@ PROJECTS
 
 .project__wrapper {
   position: relative;
+  margin-bottom: 80px;
   border-radius: 20px;
   box-shadow: 0 20px 80px 0 rgb(0, 0, 0, 0.45);
   overflow: hidden;

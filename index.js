@@ -27,3 +27,8 @@ function contact(event) {
       );
     });
 }
+
+function toggleModal(){
+    // toggle modal
+  console.log('toggleModal()')
+}
