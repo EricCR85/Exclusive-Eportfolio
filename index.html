@@ -9,7 +9,7 @@
     src="https://kit.fontawesome.com/1a8ef3541f.js"
     crossorigin="anonymous"
     ></script>
-    <script src="index.js"></script>
+    <script src="index.js" defer></script>
     <script type="text/javascript"
     src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
 </script>
@@ -47,7 +47,7 @@
               >Project</a
             >
           </li>
-          <li class="nav__link">
+          <li class="nav__link" onclick="toggleModal()">
             <a
               href="#"
               class="nav__link--anchor link__hover-effect link__hover-effect--black"
@@ -71,7 +71,7 @@
             I'm a <b class="blue">Frontend Software Engineer</b>with a strong
             passion for building web applications with a great user experiences.
             <br />
-            Here's a bit more <b class="blue">about me</b>
+            Here's a bit more <b class="blue click" onclick="toggleModal()">about me</b>
           </p>
           <div class="social__list">
             <a
@@ -94,7 +94,7 @@
           </div>
         </div>
       </header>
-      <button class="mail__btn" onclick="toggleModal()">
+      <button class="mail__btn click" onclick="toggleModal()">
         <i class="fa-solid fa-envelope"></i>
       </button>
       <a href="#projects" class="scroll">
@@ -153,7 +153,7 @@
           </div>
         </div>
         <div class="modal__half modal__contact">
-          <i class="fa-solid fa-xmark modal__exit click"></i>
+          <i class="fa-solid fa-xmark modal__exit click" onclick="toggleModal()"></i>
           <h3 class="modal__title modal__title--contact">Let's have a chat.</h3>
           <h4 class="modal__sub-title modal__sub-title--contact">
             I'm currantly open to new opportunities.
